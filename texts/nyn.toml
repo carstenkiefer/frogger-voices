@@ -1,0 +1,17 @@
+# Runyankore – MACHINE TRANSLATION, to be corrected by the speaker before
+# recording (see docs/RECORDING.md). Derived from FROGGER's i18n/nyn.toml.
+"enroll.start" = "Nituhandiika obuso bwawe. Reeba omuri kamera kurungi."
+"enroll.turn" = "Hati hindura omutwe gwawe mpora mpora kakye ebumoso n'eburyo."
+"enroll.turn_other" = "Hati hindura omutwe ogwerekye orubaju orundi."
+"enroll.close_eyes" = "Hati humiriza amaisho gaawe okuhikya obwo oraahurire eiraka. Nikitwara nk'esekondi ibiri."
+"enroll.close_again" = "Amaisho agahumirire tigaraabonekire. Ongyere ohumirize amaisho okuhikya obwo oraahurire eiraka."
+"enroll.open_eyes" = "Ongyere ohumuure amaisho gaawe."
+"enroll.verify" = "Okukyebera. Reeba omuri kamera, ohumirize mpora kandi ohumuure amaisho omurundi gumwe."
+"auth.blink" = "Ninkushaba, humiriza mpora kandi ohumuure amaisho."
+"enroll.verify_retry" = "Tihabonekire kuhumiriza. Ninkushaba, ongyere ohumirize mpora kandi ohumuure amaisho omurundi gumwe."
+"enroll.done" = "Okuhandiika kwahwa."
+"enroll.searching" = "Tihariho buso oburikurebeka. Reeba omuri kamera ori hare nk'oku okora buriijo, nka sentimita amakumi ana kuhika nshanju."
+"enroll.multiple_faces" = "Omuntu omwe wenka niwe arikwikirizibwa kuba omu maisho ga kamera."
+"enroll.no_face" = "Tihabonekire buso oburikukozesebwa. Kyebera omushana n'oku ori hare na kamera."
+"enroll.calibration_failed" = "Amaisho agahumirire tigaabaasize kuhandiikwa kurungi. Ongyere ogyezeho, reeba omuri kamera kurungi kandi ogume nohumiriize okuhikya obwo oraahurire eiraka."
+"enroll.verify_failed" = "Okukyebera kuremiirwe. Tihariho kintu kyabiikirwe."

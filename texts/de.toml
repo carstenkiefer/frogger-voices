@@ -1,0 +1,18 @@
+# Gesprochene deutsche Ansagen (abgeleitet aus FROGGERs i18n/de.toml, für
+# die Sprachausgabe angepasst: ohne Platzhalter und Klammern, Maße
+# ausgeschrieben).
+"enroll.start" = "Dein Gesicht wird jetzt eingelernt. Bitte gerade in die Kamera schauen."
+"enroll.turn" = "Jetzt den Kopf langsam etwas nach links und nach rechts drehen."
+"enroll.turn_other" = "Jetzt zur anderen Seite drehen."
+"enroll.close_eyes" = "Jetzt die Augen schließen, bis ein Ton erklingt. Das dauert etwa zwei Sekunden."
+"enroll.close_again" = "Geschlossene Augen wurden noch nicht erkannt. Bitte die Augen noch einmal schließen, bis ein Ton erklingt."
+"enroll.open_eyes" = "Augen wieder öffnen."
+"enroll.verify" = "Überprüfung. Bitte in die Kamera schauen und einmal langsam blinzeln."
+"auth.blink" = "Bitte langsam blinzeln."
+"enroll.verify_retry" = "Kein Blinzeln erkannt. Bitte noch einmal langsam blinzeln."
+"enroll.done" = "Einlernen abgeschlossen."
+"enroll.searching" = "Kein Gesicht im Bild. Bitte aus dem üblichen Arbeitsabstand in die Kamera schauen, etwa vierzig bis siebzig Zentimeter."
+"enroll.multiple_faces" = "Es darf nur eine Person vor der Kamera sein."
+"enroll.no_face" = "Kein verwendbares Gesicht gefunden. Bitte Beleuchtung und Abstand zur Kamera prüfen."
+"enroll.calibration_failed" = "Geschlossene Augen konnten nicht zuverlässig erfasst werden. Bitte noch einmal versuchen, gerade in die Kamera schauen und die Augen geschlossen halten, bis der Ton erklingt."
+"enroll.verify_failed" = "Überprüfung fehlgeschlagen. Es wurde nichts gespeichert."

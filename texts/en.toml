@@ -1,0 +1,17 @@
+# Spoken English prompts (derived from FROGGER's i18n/en.toml, adapted for
+# speech: no placeholders, no brackets, units spelled out).
+"enroll.start" = "Let's enroll your face. Please look straight at the camera."
+"enroll.turn" = "Now slowly turn your head a little to the left and to the right."
+"enroll.turn_other" = "Now turn to the other side."
+"enroll.close_eyes" = "Now close your eyes until you hear a tone. That takes about two seconds."
+"enroll.close_again" = "Closed eyes were not detected yet. Please close your eyes again until you hear a tone."
+"enroll.open_eyes" = "Open your eyes again."
+"enroll.verify" = "Verification. Look at the camera and blink slowly once."
+"auth.blink" = "Please blink slowly."
+"enroll.verify_retry" = "No blink detected. Please blink slowly once more."
+"enroll.done" = "Enrollment complete."
+"enroll.searching" = "No face in view. Look at the camera from your usual working distance, about forty to seventy centimetres."
+"enroll.multiple_faces" = "Only one person may be in front of the camera."
+"enroll.no_face" = "No usable face found. Please check the lighting and your distance to the camera."
+"enroll.calibration_failed" = "Closed eyes could not be recorded reliably. Please try again, look straight at the camera and keep your eyes closed until you hear the tone."
+"enroll.verify_failed" = "Verification failed. Nothing was saved."

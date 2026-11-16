@@ -1,0 +1,17 @@
+# Kinyarwanda – MACHINE TRANSLATION, to be corrected by the speaker before
+# recording (see docs/RECORDING.md). Derived from FROGGER's i18n/rw.toml.
+"enroll.start" = "Turandikisha isura yawe. Reba neza imbere muri kamera."
+"enroll.turn" = "Noneho hindukiza umutwe buhoro buhoro gato ibumoso n'iburyo."
+"enroll.turn_other" = "Noneho hindukiriza umutwe ku rundi ruhande."
+"enroll.close_eyes" = "Noneho humiriza amaso kugeza wumvise ijwi. Bimara nk'amasegonda abiri."
+"enroll.close_again" = "Amaso ahumirije ntaramenyekana. Ongera uhumirize amaso kugeza wumvise ijwi."
+"enroll.open_eyes" = "Ongera uhumure amaso."
+"enroll.verify" = "Igenzura. Reba muri kamera maze uhumbye buhoro rimwe."
+"auth.blink" = "Nyamuneka humbya buhoro."
+"enroll.verify_retry" = "Nta guhumbya kwabonetse. Ongera uhumbye buhoro rimwe."
+"enroll.done" = "Kwandikisha birarangiye."
+"enroll.searching" = "Nta sura igaragara. Reba muri kamera uri ku ntera usanzwe ukoreraho, nka santimetero mirongo ine kugeza kuri mirongo irindwi."
+"enroll.multiple_faces" = "Umuntu umwe gusa ni we wemerewe kuba imbere ya kamera."
+"enroll.no_face" = "Nta sura ikoreshwa yabonetse. Genzura urumuri n'intera iri hagati yawe na kamera."
+"enroll.calibration_failed" = "Amaso ahumirije ntiyashoboye kwandikwa neza. Ongera ugerageze, reba imbere muri kamera kandi ukomeze uhumirije amaso kugeza wumvise ijwi."
+"enroll.verify_failed" = "Igenzura ryananiranye. Nta kintu cyabitswe."

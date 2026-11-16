@@ -1,0 +1,19 @@
+# Spoken enrollment prompts: one message key per line, in the order they
+# usually occur. Each language provides texts/<lang>.toml with these keys
+# and voices/<lang>/<key>.opus. FROGGER plays a clip when it exists and a
+# system sound otherwise.
+enroll.start
+enroll.turn
+enroll.turn_other
+enroll.close_eyes
+enroll.close_again
+enroll.open_eyes
+enroll.verify
+auth.blink
+enroll.verify_retry
+enroll.done
+enroll.searching
+enroll.multiple_faces
+enroll.no_face
+enroll.calibration_failed
+enroll.verify_failed
