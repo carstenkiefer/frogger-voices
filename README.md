@@ -51,6 +51,31 @@ player) and tell us in an issue:
 * Would you like to record your language yourself? See
   [docs/RECORDING.md](docs/RECORDING.md) – it takes about 20 minutes.
 
+## Adding a language
+
+More languages are very welcome – ideally recorded by native speakers:
+
+1. **FROGGER itself must speak the language first:** its message catalog
+   (`i18n/<lang>.toml` in the [FROGGER repository](https://github.com/carstenkiefer/frogger))
+   is the source of the texts. If it is missing, start there.
+2. **Texts:** copy `texts/en.toml` to `texts/<lang>.toml` and translate it
+   for speech – short sentences, no brackets or placeholders, numbers and
+   units spelled out.
+3. **Clips**, in this order of preference:
+   * **Recordings** by a native speaker – see [docs/RECORDING.md](docs/RECORDING.md)
+     (15 sentences, about 20 minutes, with a short consent statement);
+   * a **speech model** whose license chain (model *and* training data) allows
+     redistribution – add it to `scripts/voices.toml` and generate with the
+     matching `scripts/generate-*.py`/`.sh`;
+   * if neither exists, the language stays without a voice package and
+     FROGGER uses system sounds.
+4. **`voices/<lang>/SOURCE.md`:** origin, speaker or model, training data,
+   license of the clips.
+5. `python3 scripts/check.py` must pass. Open a pull request.
+
+Recordings can also replace generated clips later – especially for the
+languages that currently use Meta MMS (non-commercial license).
+
 ## How it works
 
 * `prompts.txt` lists the spoken prompts (message keys of FROGGER, e.g.
