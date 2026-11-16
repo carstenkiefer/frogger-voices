@@ -14,12 +14,28 @@ them separately without touching FROGGER itself.
 
 ## Languages
 
-| Language | Status | Source |
+| Language | Status | Voice |
 |---|---|---|
-| Deutsch (`de`) | ✅ complete | Piper voice *Thorsten* (CC0) |
-| English (`en`) | ✅ complete | Piper voice *LJ Speech* (public domain) |
-| Ikinyarwanda (`rw`) | 🎙️ recordings wanted | native speakers |
-| Runyankore (`nyn`) | 🎙️ recordings wanted | native speakers |
+| Deutsch (`de`) | ✅ clips | Piper *Thorsten* (CC0) |
+| English (`en`) | ✅ clips | Piper *LJ Speech* (public domain) |
+| Español (`es`) | 📝 texts, voice under evaluation | Piper / Kokoro |
+| Français (`fr`) | 📝 texts, voice under evaluation | Piper / Kokoro |
+| Português (`pt`, Brazil) | 📝 texts, voice under evaluation | Piper / Kokoro |
+| Русский (`ru`) | 📝 texts, voice under evaluation | Piper |
+| 中文 (`zh`) | 📝 texts, voice under evaluation | Piper / Kokoro |
+| 日本語 (`ja`) | 📝 texts, voice under evaluation | Kokoro |
+| हिन्दी (`hi`) | 📝 texts, voice under evaluation | Kokoro |
+| 한국어 (`ko`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
+| العربية (`ar`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
+| Kiswahili (`sw`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
+| Bahasa Indonesia (`id`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
+| Bahasa Melayu (`ms`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
+| Ikinyarwanda (`rw`) | 🎙️ recordings wanted | native speakers (Meta MMS as interim option) |
+| Runyankore (`nyn`) | 🎙️ recordings wanted | native speakers (Meta MMS as interim option) |
+
+All 16 languages of FROGGER have spoken texts in `texts/`. Texts marked as
+machine translations should be checked by native speakers before clips are
+produced.
 
 Every language documents its origin, voice and license in
 `voices/<lang>/SOURCE.md`. A language only gets a package when it sounds
