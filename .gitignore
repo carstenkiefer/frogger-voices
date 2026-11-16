@@ -1,3 +1,5 @@
 /.cache
 /dist
 /recordings
+/g2pW
+__pycache__/

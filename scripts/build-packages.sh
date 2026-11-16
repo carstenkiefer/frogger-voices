@@ -18,6 +18,7 @@ trap 'rm -rf "$WORK"' EXIT
 for lang in $(python3 "$ROOT/scripts/check.py"); do
   pkg=frogger-voice-$lang
   desc="Spoken enrollment prompts for FROGGER ($lang)"
+  license=$(sed -n 's/^\* \*\*License of the clips:\*\* \[\([^]]*\)\].*/\1/p' "$ROOT/voices/$lang/SOURCE.md")
 
   # ---- staged file tree ----
   r=$WORK/$pkg/root
@@ -55,7 +56,7 @@ Name: $pkg
 Version: ${PKG_VERSION%%~*}
 Release: ${PKG_VERSION#*~}%{!?_pre:1}
 Summary: $desc
-License: see /usr/share/doc/$pkg/SOURCE.md
+License: ${license:-see /usr/share/doc/$pkg/SOURCE.md}
 URL: https://github.com/carstenkiefer/frogger-voices
 BuildArch: noarch
 Requires: frogger

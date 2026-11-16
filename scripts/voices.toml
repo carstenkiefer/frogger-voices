@@ -1,0 +1,38 @@
+# Which engine and voice produces the clips of each language.
+# Piper voices are pinned in piper-voices.txt; Kokoro and MMS below.
+
+[kokoro]
+# https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+# (ONNX export of hexgrad/Kokoro-82M, Apache-2.0)
+model = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx"
+model_sha256 = "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
+voices = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"
+voices_sha256 = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+
+[mms]
+# Meta MMS-TTS (facebook/mms-tts-<code>), CC BY-NC 4.0, pinned revisions.
+kor = "1b6491366d2ed6ea8e4e735607155d9f0110df29"
+ara = "afba26a4b470f9ae64aeeea91b99f080dee410de"
+swh = "c66a113bf598cd86fe1dfd3c0b5b56d4caa4e6f5"
+ind = "50dc8c10320a328391efaab25e4c629f9bf254ec"
+zlm = "5a6309e9f695f23e922cf12595e229259ec827d4"
+kin = "71d00a03419b9bfd203a6bfa4d6bc565cbe3c4e0"
+nyn = "0194917183886e0ef017d74d9355a248b2a6a6cc"
+
+[languages]
+de = { engine = "piper", voice = "de_DE-thorsten-medium" }
+en = { engine = "kokoro", voice = "af_heart", lang = "en-us" }
+es = { engine = "piper", voice = "es_ES-davefx-medium" }
+fr = { engine = "piper", voice = "fr_FR-siwis-medium" }
+pt = { engine = "piper", voice = "pt_BR-faber-medium" }
+ru = { engine = "piper", voice = "ru_RU-dmitri-medium" }
+zh = { engine = "piper", voice = "zh_CN-chaowen-medium" }
+hi = { engine = "kokoro", voice = "hm_omega", lang = "hi" }
+ja = { engine = "kokoro", voice = "jf_alpha", lang = "ja" }
+ko = { engine = "mms", code = "kor" }
+ar = { engine = "mms", code = "ara" }
+sw = { engine = "mms", code = "swh" }
+id = { engine = "mms", code = "ind" }
+ms = { engine = "mms", code = "zlm" }
+rw = { engine = "mms", code = "kin" }
+nyn = { engine = "mms", code = "nyn" }

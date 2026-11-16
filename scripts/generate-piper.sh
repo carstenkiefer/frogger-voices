@@ -32,11 +32,10 @@ out=$ROOT/voices/$LANG_CODE
 mkdir -p "$out"
 python3 "$ROOT/scripts/texts.py" "$LANG_CODE" | while IFS=$'\t' read -r key text; do
   wav=$(mktemp --suffix=.wav)
-  printf '%s\n' "$text" | python3 -m piper -m "$CACHE/$name.onnx" -f "$wav" >/dev/null 2>&1
-  # Same loudness for all clips, Opus mono 48 kHz (what PipeWire plays natively).
-  ffmpeg -nostdin -hide_banner -loglevel error -y -i "$wav" \
-    -af "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,loudnorm=I=-18:TP=-2" \
-    -ar 48000 -ac 1 -c:a libopus -b:a 32k -map_metadata -1 "$out/$key.opus"
+  # Run in .cache: Piper's Chinese front end downloads its g2pW model into
+  # the working directory.
+  (cd "$CACHE" && printf '%s\n' "$text" | python3 -m piper -m "$CACHE/$name.onnx" -f "$wav" >/dev/null 2>&1)
+  "$ROOT/scripts/encode.sh" "$wav" "$out/$key.opus"
   rm -f "$wav"
   echo "  $LANG_CODE/$key.opus"
 done

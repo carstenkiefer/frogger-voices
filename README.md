@@ -14,32 +14,42 @@ them separately without touching FROGGER itself.
 
 ## Languages
 
-| Language | Status | Voice |
+| Language | Voice | License of the clips |
 |---|---|---|
-| Deutsch (`de`) | ✅ clips | Piper *Thorsten* (CC0) |
-| English (`en`) | ✅ clips | Piper *LJ Speech* (public domain) |
-| Español (`es`) | 📝 texts, voice under evaluation | Piper / Kokoro |
-| Français (`fr`) | 📝 texts, voice under evaluation | Piper / Kokoro |
-| Português (`pt`, Brazil) | 📝 texts, voice under evaluation | Piper / Kokoro |
-| Русский (`ru`) | 📝 texts, voice under evaluation | Piper |
-| 中文 (`zh`) | 📝 texts, voice under evaluation | Piper / Kokoro |
-| 日本語 (`ja`) | 📝 texts, voice under evaluation | Kokoro |
-| हिन्दी (`hi`) | 📝 texts, voice under evaluation | Kokoro |
-| 한국어 (`ko`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
-| العربية (`ar`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
-| Kiswahili (`sw`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
-| Bahasa Indonesia (`id`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
-| Bahasa Melayu (`ms`) | 📝 texts, voice under evaluation | Meta MMS or recordings |
-| Ikinyarwanda (`rw`) | 🎙️ recordings wanted | native speakers (Meta MMS as interim option) |
-| Runyankore (`nyn`) | 🎙️ recordings wanted | native speakers (Meta MMS as interim option) |
+| Deutsch (`de`) | Piper *Thorsten* | CC0 |
+| English (`en`) | Kokoro *af_heart* | CC0 |
+| Español (`es`) | Piper *davefx* | CC0 |
+| Français (`fr`) | Piper *SIWIS* | CC BY 4.0 |
+| Português (`pt`, Brazil) | Piper *faber* | CC BY 4.0 |
+| Русский (`ru`) | Piper *dmitri* | CC BY 4.0 |
+| 中文 (`zh`) | Piper *chaowen* | CC BY 4.0 |
+| 日本語 (`ja`) | Kokoro *jf_alpha* | CC0 |
+| हिन्दी (`hi`) | Kokoro *hm_omega* | CC0 |
+| 한국어 (`ko`) | Meta MMS | CC BY-NC 4.0 ⚠️ |
+| العربية (`ar`) | Meta MMS | CC BY-NC 4.0 ⚠️ |
+| Kiswahili (`sw`) | Meta MMS | CC BY-NC 4.0 ⚠️ |
+| Bahasa Indonesia (`id`) | Meta MMS | CC BY-NC 4.0 ⚠️ |
+| Bahasa Melayu (`ms`) | Meta MMS | CC BY-NC 4.0 ⚠️ |
+| Ikinyarwanda (`rw`) | Meta MMS (interim) | CC BY-NC 4.0 ⚠️ |
+| Runyankore (`nyn`) | Meta MMS (interim) | CC BY-NC 4.0 ⚠️ |
 
-All 16 languages of FROGGER have spoken texts in `texts/`. Texts marked as
-machine translations should be checked by native speakers before clips are
-produced.
+Voices were chosen by listening to several candidates per language with the
+same sentence. Every language documents its origin, voice, training data and
+license in `voices/<lang>/SOURCE.md`. ⚠️ Meta MMS is the only freely
+available model for these languages and is licensed for **non-commercial use
+only**; recordings by native speakers would replace these clips (see below).
 
-Every language documents its origin, voice and license in
-`voices/<lang>/SOURCE.md`. A language only gets a package when it sounds
-good – otherwise FROGGER keeps using system sounds for it.
+## Feedback wanted 🎧
+
+None of us speaks all 16 languages. If you are a native speaker, please
+listen to the clips of your language (`voices/<lang>/*.opus`, any media
+player) and tell us in an issue:
+
+* Does it sound natural and friendly? Is anything mispronounced?
+* Are the texts (`texts/<lang>.toml`) correct and idiomatic? Kinyarwanda and
+  Runyankore are machine translations so far.
+* Would you like to record your language yourself? See
+  [docs/RECORDING.md](docs/RECORDING.md) – it takes about 20 minutes.
 
 ## How it works
 
@@ -70,4 +80,4 @@ complete language.
 
 * Scripts and texts: MIT OR Apache-2.0 (`LICENSE-MIT`, `LICENSE-APACHE`),
   like FROGGER.
-* Clips: per language, see `voices/<lang>/SOURCE.md` (currently CC0 1.0).
+* Clips: per language, see the table above and `voices/<lang>/SOURCE.md`.

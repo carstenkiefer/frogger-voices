@@ -1,14 +1,8 @@
-# English (en) – origin and license
+# English (US) (en) – origin and license
 
-* **Method:** generated once with [Piper](https://github.com/OHF-Voice/piper1-gpl)
-  1.8.0 from the texts in `texts/en.toml` (`scripts/generate-piper.sh en`).
-* **Voice:** `en_US-ljspeech-high` from
-  [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices) (MIT),
-  trained from scratch on the [LJ Speech](https://keithito.com/LJ-Speech-Dataset/)
-  dataset (public domain; LibriVox recordings by Linda Johnson). The voice
-  model is pinned by SHA-256 in `scripts/piper-voices.txt`.
-* **Post-processing:** silence trimmed, loudness normalised (-18 LUFS),
-  Opus mono 48 kHz, 32 kbit/s, no metadata.
+* **Method:** generated once with [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) v1.0 (Apache-2.0), ONNX export from [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx), from `texts/en.toml` (`scripts/generate-kokoro.py en`).
+* **Voice:** `af_heart`. Model files are pinned by SHA-256 in `scripts/voices.toml`.
+* **Training data:** according to the model card, permissive / non-copyrighted audio.
+* **Post-processing:** silence trimmed, loudness normalised (-18 LUFS), Opus mono 48 kHz, 32 kbit/s, no metadata (`scripts/encode.sh`).
 * **License of the clips:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
-  Piper (GPL) is only the tool used to produce them; its license does not
-  apply to its output.
+* **Feedback welcome:** does it sound natural, is anything mispronounced? Please open an issue – native speakers especially.
