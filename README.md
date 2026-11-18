@@ -10,7 +10,13 @@ prompts** instead.
 
 Each language is a separate, optional package (`frogger-voice-<lang>`).
 FROGGER works without them, and distributions can leave them out or ship
-them separately without touching FROGGER itself.
+them separately without touching FROGGER itself. Two metapackages install
+several at once:
+
+* `frogger-voices-free` – all languages whose clips may also be used
+  commercially (CC0 or CC BY); the right choice for companies;
+* `frogger-voices-all` – all languages, including those marked ⚠️ below
+  (non-commercial use only).
 
 ## Languages
 
