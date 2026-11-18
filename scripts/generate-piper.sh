@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Generate the clips of one language with Piper.
 #
-#   scripts/generate-piper.sh <lang>
+#   scripts/generate-piper.sh <lang> [key ...]   # only these keys
 #
 # Needs: python3 with `piper-tts` (pip install piper-tts), ffmpeg with
 # libopus, curl. Voice models are downloaded to .cache/ and verified by
@@ -30,7 +30,7 @@ fetch "$name.onnx.json" "$sha_json"
 
 out=$ROOT/voices/$LANG_CODE
 mkdir -p "$out"
-python3 "$ROOT/scripts/texts.py" "$LANG_CODE" | while IFS=$'\t' read -r key text; do
+python3 "$ROOT/scripts/texts.py" "$LANG_CODE" "${@:2}" | while IFS=$'\t' read -r key text; do
   wav=$(mktemp --suffix=.wav)
   # Run in .cache: Piper's Chinese front end downloads its g2pW model into
   # the working directory.

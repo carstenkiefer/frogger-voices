@@ -63,7 +63,7 @@ More languages are very welcome – ideally recorded by native speakers:
    units spelled out.
 3. **Clips**, in this order of preference:
    * **Recordings** by a native speaker – see [docs/RECORDING.md](docs/RECORDING.md)
-     (15 sentences, about 20 minutes, with a short consent statement);
+     (18 sentences, about 20 minutes, with a short consent statement);
    * a **speech model** whose license chain (model *and* training data) allows
      redistribution – add it to `scripts/voices.toml` and generate with the
      matching `scripts/generate-*.py`/`.sh`;
@@ -90,7 +90,7 @@ languages that currently use Meta MMS (non-commercial license).
 ## Contributing a language
 
 * **Recordings by native speakers** (preferred): see
-  [docs/RECORDING.md](docs/RECORDING.md) – 15 short sentences, about 20
+  [docs/RECORDING.md](docs/RECORDING.md) – 18 short sentences, about 20
   minutes, including a short consent statement.
 * **Generated with a speech model**: only with a voice whose license chain
   (model *and* training data) allows commercial use and redistribution.

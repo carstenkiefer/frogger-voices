@@ -2,7 +2,7 @@
 
 Native-speaker recordings sound better than any speech model and are the
 only option for many languages (e.g. Kinyarwanda, Runyankore). Recording one
-language takes about 20 minutes: 15 short sentences.
+language takes about 20 minutes: 18 short sentences.
 
 ## 1. Check the texts first
 

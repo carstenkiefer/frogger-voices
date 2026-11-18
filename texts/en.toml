@@ -15,3 +15,6 @@
 "enroll.no_face" = "No usable face found. Please check the lighting and your distance to the camera."
 "enroll.calibration_failed" = "Closed eyes could not be recorded reliably. Please try again, look straight at the camera and keep your eyes closed until you hear the tone."
 "enroll.verify_failed" = "Verification failed. Nothing was saved."
+"enroll.hint_closer" = "Please come a little closer to the camera."
+"enroll.hint_center" = "Please keep your face in the middle of the picture, a little away from the camera."
+"enroll.hint_dark" = "Your face is too dark. Is the infrared light on? Please come a little closer."

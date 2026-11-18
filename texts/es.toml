@@ -14,3 +14,6 @@
 "enroll.no_face" = "No se ha encontrado ningún rostro utilizable. Compruebe la iluminación y la distancia a la cámara."
 "enroll.calibration_failed" = "No se pudieron registrar de forma fiable los ojos cerrados. Inténtelo de nuevo, mire de frente a la cámara y mantenga los ojos cerrados hasta oír el tono."
 "enroll.verify_failed" = "La verificación ha fallado. No se ha guardado nada."
+"enroll.hint_closer" = "Acérquese un poco más a la cámara, por favor."
+"enroll.hint_center" = "Mantenga el rostro en el centro de la imagen, a un poco de distancia de la cámara."
+"enroll.hint_dark" = "El rostro está demasiado oscuro. ¿Está encendida la luz infrarroja? Acérquese un poco."

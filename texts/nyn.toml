@@ -15,3 +15,6 @@
 "enroll.no_face" = "Tihabonekire buso oburikukozesebwa. Kyebera omushana n'oku ori hare na kamera."
 "enroll.calibration_failed" = "Amaisho agahumirire tigaabaasize kuhandiikwa kurungi. Ongyere ogyezeho, reeba omuri kamera kurungi kandi ogume nohumiriize okuhikya obwo oraahurire eiraka."
 "enroll.verify_failed" = "Okukyebera kuremiirwe. Tihariho kintu kyabiikirwe."
+"enroll.hint_closer" = "Nyabura sembera kamera kakye."
+"enroll.hint_center" = "Nyabura teeka obuso hagati omu kishushani, oine orugyendo rukye na kamera."
+"enroll.hint_dark" = "Obuso bwiragura munonga. Etaara ya infrared neeyaka? Nyabura sembera kakye."

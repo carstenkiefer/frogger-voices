@@ -14,3 +14,6 @@
 "enroll.no_face" = "Hakuna uso unaofaa uliopatikana. Angalia mwanga na umbali kutoka kwa kamera."
 "enroll.calibration_failed" = "Macho yaliyofungwa hayakuweza kurekodiwa kwa uhakika. Tafadhali jaribu tena, tazama kamera moja kwa moja na uweke macho yamefungwa hadi usikie mlio."
 "enroll.verify_failed" = "Uthibitishaji umeshindwa. Hakuna kilichohifadhiwa."
+"enroll.hint_closer" = "Tafadhali sogea karibu kidogo na kamera."
+"enroll.hint_center" = "Tafadhali weka uso katikati ya picha, ukiwa mbali kidogo na kamera."
+"enroll.hint_dark" = "Uso una giza sana. Je, taa ya infraredi imewashwa? Tafadhali sogea karibu kidogo."

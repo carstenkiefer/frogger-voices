@@ -14,3 +14,6 @@
 "enroll.no_face" = "未找到可用的人脸。请检查光线以及与摄像头的距离。"
 "enroll.calibration_failed" = "未能可靠地记录闭眼状态。请重试，正视摄像头，并保持闭眼直到听到提示音。"
 "enroll.verify_failed" = "验证失败。未保存任何数据。"
+"enroll.hint_closer" = "请离摄像头再近一点。"
+"enroll.hint_center" = "请把脸保持在画面中央，和摄像头保持一点距离。"
+"enroll.hint_dark" = "脸部太暗了。红外灯打开了吗？请再靠近一点。"

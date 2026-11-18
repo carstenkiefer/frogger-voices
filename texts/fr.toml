@@ -14,3 +14,6 @@
 "enroll.no_face" = "Aucun visage exploitable trouvé. Vérifiez l'éclairage et la distance à la caméra."
 "enroll.calibration_failed" = "Les yeux fermés n'ont pas pu être enregistrés de manière fiable. Réessayez, regardez la caméra bien en face et gardez les yeux fermés jusqu'au signal sonore."
 "enroll.verify_failed" = "Échec de la vérification. Rien n'a été enregistré."
+"enroll.hint_closer" = "Rapprochez-vous un peu de la caméra, s'il vous plaît."
+"enroll.hint_center" = "Gardez le visage au centre de l'image, à une petite distance de la caméra."
+"enroll.hint_dark" = "Le visage est trop sombre. La lumière infrarouge est-elle allumée ? Rapprochez-vous un peu."

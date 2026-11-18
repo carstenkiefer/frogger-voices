@@ -17,3 +17,6 @@ enroll.multiple_faces
 enroll.no_face
 enroll.calibration_failed
 enroll.verify_failed
+enroll.hint_closer
+enroll.hint_center
+enroll.hint_dark

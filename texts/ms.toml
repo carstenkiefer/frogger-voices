@@ -14,3 +14,6 @@
 "enroll.no_face" = "Tiada wajah yang boleh digunakan ditemui. Semak pencahayaan dan jarak ke kamera."
 "enroll.calibration_failed" = "Mata tertutup tidak dapat dirakam dengan andal. Sila cuba lagi, lihat terus ke kamera dan kekalkan mata terpejam sehingga anda mendengar bunyi."
 "enroll.verify_failed" = "Pengesahan gagal. Tiada apa-apa yang disimpan."
+"enroll.hint_closer" = "Sila dekatkan diri sedikit ke kamera."
+"enroll.hint_center" = "Sila pastikan wajah di tengah gambar, dengan sedikit jarak dari kamera."
+"enroll.hint_dark" = "Wajah terlalu gelap. Adakah lampu inframerah dihidupkan? Sila dekatkan diri sedikit."

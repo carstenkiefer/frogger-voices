@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the clips of one language with Meta MMS-TTS (CC BY-NC 4.0).
 
-    scripts/generate-mms.py <lang>
+    scripts/generate-mms.py <lang> [key ...]   # only these keys
 
 Needs: pip install torch transformers uroman soundfile. The model revision
 is pinned in scripts/voices.toml. MMS clips are licensed CC BY-NC 4.0 like
@@ -26,7 +26,7 @@ torch.manual_seed(0)  # VITS samples noise: fixed seed, reproducible clips
 
 out = root / "voices" / lang
 out.mkdir(parents=True, exist_ok=True)
-lines = subprocess.run([sys.executable, root / "scripts" / "texts.py", lang], capture_output=True, text=True, check=True).stdout
+lines = subprocess.run([sys.executable, root / "scripts" / "texts.py", lang, *sys.argv[2:]], capture_output=True, text=True, check=True).stdout
 for line in lines.splitlines():
     key, text = line.split("\t", 1)
     if roman:

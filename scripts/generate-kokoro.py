@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the clips of one language with Kokoro (Apache-2.0).
 
-    scripts/generate-kokoro.py <lang>
+    scripts/generate-kokoro.py <lang> [key ...]   # only these keys
 
 Needs: pip install kokoro-onnx soundfile; for Japanese also "misaki[ja]".
 Model files are downloaded to .cache/ and verified by SHA-256
@@ -35,7 +35,7 @@ if spec["lang"] == "ja":
 
 out = root / "voices" / lang
 out.mkdir(parents=True, exist_ok=True)
-lines = subprocess.run([sys.executable, root / "scripts" / "texts.py", lang], capture_output=True, text=True, check=True).stdout
+lines = subprocess.run([sys.executable, root / "scripts" / "texts.py", lang, *sys.argv[2:]], capture_output=True, text=True, check=True).stdout
 for line in lines.splitlines():
     key, text = line.split("\t", 1)
     if g2p:

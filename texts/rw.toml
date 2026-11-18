@@ -15,3 +15,6 @@
 "enroll.no_face" = "Nta sura ikoreshwa yabonetse. Genzura urumuri n'intera iri hagati yawe na kamera."
 "enroll.calibration_failed" = "Amaso ahumirije ntiyashoboye kwandikwa neza. Ongera ugerageze, reba imbere muri kamera kandi ukomeze uhumirije amaso kugeza wumvise ijwi."
 "enroll.verify_failed" = "Igenzura ryananiranye. Nta kintu cyabitswe."
+"enroll.hint_closer" = "Nyamuneka egera kamera gato."
+"enroll.hint_center" = "Nyamuneka shyira sura hagati mu ishusho, usige intera nto hagati yawe na kamera."
+"enroll.hint_dark" = "Sura yijimye cyane. Ese itara rya infrarouge riraka? Nyamuneka egera gato."

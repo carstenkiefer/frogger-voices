@@ -16,3 +16,6 @@
 "enroll.no_face" = "Kein verwendbares Gesicht gefunden. Bitte Beleuchtung und Abstand zur Kamera prüfen."
 "enroll.calibration_failed" = "Geschlossene Augen konnten nicht zuverlässig erfasst werden. Bitte noch einmal versuchen, gerade in die Kamera schauen und die Augen geschlossen halten, bis der Ton erklingt."
 "enroll.verify_failed" = "Überprüfung fehlgeschlagen. Es wurde nichts gespeichert."
+"enroll.hint_closer" = "Bitte etwas näher an die Kamera."
+"enroll.hint_center" = "Bitte das Gesicht mittig ins Bild halten, mit etwas Abstand zur Kamera."
+"enroll.hint_dark" = "Das Gesicht ist zu dunkel. Ist das Infrarotlicht an? Bitte etwas näher kommen."
