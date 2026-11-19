@@ -18,6 +18,13 @@ several at once:
 * `frogger-voices-all` – all languages, including those marked ⚠️ below
   (non-commercial use only).
 
+**Installation:** from FROGGER's package repository (set up as described in
+the [FROGGER README](https://github.com/carstenkiefer/frogger#package-repository-recommended)),
+e.g. `sudo apt install frogger-voice-de` or `sudo dnf install
+frogger-voices-free`; or download the packages from the
+[releases](https://github.com/carstenkiefer/frogger-voices/releases). The
+package repository picks up a new release of this repository within a day.
+
 ## Languages
 
 | Language | Voice | License of the clips |
